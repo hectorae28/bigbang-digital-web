@@ -1,0 +1,55 @@
+.MenuItem{
+    border: 1px #00F433 solid;
+    width: 9%;
+    margin: 2.5% 0;
+    list-style: none;
+    background-color: #00F433;
+    border-radius: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tagSmall{
+    display: none;
+    text-align: center;
+    position:absolute;
+    top:-30px;
+    background-color: #757575;
+    color: #fff;
+    border-radius: 8px;
+    width: 90%;
+    padding: 5%;
+    z-index: -1;
+}
+.tagBig{
+    display: none;
+    text-align: center;
+    position:absolute;
+    top:-50px;
+    background-color: #757575;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 17px;
+    width: 90%;
+    padding: 5%;
+    z-index: -1;
+}
+.Selected span, .MenuItem:hover span{
+    display: block;
+    
+}
+.NoSelected:hover{
+    width: 12.5%;
+    margin: 1.25% 0;
+}
+.NoSelected svg{
+    width: 65%;
+}
+.Selected{
+    width: 15%;
+    margin: 0;
+}
+.Selected svg{
+    width: 80%;
+}

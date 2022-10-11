@@ -1,0 +1,16 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+/*
+morado:#5250a4
+azul:#3fa3ef
+verde:#00F433
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 2.5%;
+    margin-top: 2.5%;
+}

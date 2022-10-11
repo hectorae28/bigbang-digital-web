@@ -1,1 +1,9 @@
 export { default as App } from './App';
+export { default as Home } from './Home';
+export { default as WebDesing } from './WebDesing';
+export { default as SocialMedia } from './SocialMedia';
+export { default as Commercials } from './Commercials';
+export { default as Prints } from './Prints';
+export { default as Photographs } from './Photographs';
+export { default as GraphicDesign } from './GraphicDesign';
+export { default as Uniforms } from './Uniforms';
