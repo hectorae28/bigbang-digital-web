@@ -1,12 +1,37 @@
-import React from 'react'
+import React from 'react';
+import MenuIcon08 from '/public/images/Icons/IconMenu08.png';
+import Uniform01 from '/public/images/Uniform01.png';
+import Uniform02 from '/public/images/Uniform02.jpg';
+import Uniform03 from '/public/images/Uniform03.jpg';
+import './styles.css';
 
 const Uniforms = () => {
   return (
-    <div className="Uniforms">
-        <h1 className="titlePage">Uniformes</h1>
-        <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-  )
-}
+    <article className="Uniforms">
+      <section className="firstSection">
+        <div className="description">
+          <h1 className="titlePage">Uniformes</h1>
+          <p>
+            Estampados, bordados y sublimación de franelas, chemises, camisas
+            tipo KE, tapabocas, gorras, uniformes corporativos y más.
+          </p>
+        </div>
+        <img src={MenuIcon08} alt="" className="ImageDescription" />
+      </section>
+      <section className="Imagesection">
+        <div className="titles">
+          <span>Gorras</span>
+          <span>Tapabocas</span>
+          <span>Chemises</span>
+        </div>
+        <div className="ImagesContainer">
+          <img src={Uniform01} alt="" />
+          <img src={Uniform02} alt="" />
+          <img src={Uniform03} alt="" />
+        </div>
+      </section>
+    </article>
+  );
+};
 
-export default Uniforms
+export default Uniforms;

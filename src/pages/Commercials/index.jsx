@@ -1,12 +1,75 @@
-import React from 'react'
+import React from 'react';
+import IconMenu04 from '/public/images/Icons/IconMenu04.png';
+import Commercials01 from '/public/images/Commercials01.jpg';
+import Commercials02 from '/public/images/Commercials02.jpeg';
+import Commercials03 from '/public/images/Commercials03.png';
+import Commercials04 from '/public/images/Commercials04.jpeg';
+import Commercials05 from '/public/images/Commercials05.jpeg';
+import Commercials06 from '/public/images/Commercials06.jpeg';
+import Commercials07 from '/public/images/Commercials07.png';
+import Commercials08 from '/public/images/Commercials08.png';
+import Commercials09 from '/public/images/Commercials09.png';
+
+import './styles.css';
 
 const Commercials = () => {
+  const imagesIndex = [
+    {
+      image: Commercials01,
+      tag: 'Impreción de vinyl',
+    },
+    {
+      image: Commercials02,
+      tag: 'Pendón',
+    },
+    {
+      image: Commercials03,
+      tag: 'Sky Dancer',
+    },
+    {
+      image: Commercials04,
+      tag: 'Iglú',
+    },
+    {
+      image: Commercials06,
+      tag: 'Arco Inflable',
+    },
+    {
+      image: Commercials07,
+      tag: 'Marquesinas',
+    },
+    {
+      image: Commercials08,
+      tag: 'Vallas',
+    },
+    {
+      image: Commercials09,
+      tag: 'Banderines',
+    },
+  ];
   return (
-    <div className="Commercials">
-        <h1 className="titlePage">Anuncios Publicitarios</h1>
-        <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-  )
-}
+    <article className="Commercials">
+      <section className="firstSection">
+        <div className="description">
+          <h1 className="titlePage">Anuncios Publicitarios</h1>
+          <p>
+            Publicidad de exteriores, en impresiones de vinil, banner acrilico
+            en 3D Corporeos publicitarios, vallas publicitarias y marquesinas,
+            pendones, inflables, banderines, pancartas, inflables publicitarios.
+          </p>
+        </div>
+        <img src={IconMenu04} alt="IconMenu" className="ImageDescription" />
+      </section>
+      <section className="secondSection">
+        {imagesIndex.map((item, index) => (
+          <div className="imageCard" key={index}>
+            <p>{item.tag}</p>
+            <img src={item.image} alt={item.tag} />
+          </div>
+        ))}
+      </section>
+    </article>
+  );
+};
 
-export default Commercials
+export default Commercials;

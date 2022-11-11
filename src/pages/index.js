@@ -7,3 +7,4 @@ export { default as Prints } from './Prints';
 export { default as Photographs } from './Photographs';
 export { default as GraphicDesign } from './GraphicDesign';
 export { default as Uniforms } from './Uniforms';
+export { default as SMS } from './SMS';

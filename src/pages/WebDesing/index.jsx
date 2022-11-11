@@ -1,12 +1,62 @@
-import React from 'react'
+import React from 'react';
+import IconMenu02 from '/public/images/Icons/IconMenu02.png';
+import WebDesign01 from '/public/images/WebDesign01.jpeg';
+import WebDesign02 from '/public/images/WebDesign02.jpeg';
+import WebDesign03 from '/public/images/WebDesign03.png';
+import './styles.css';
 
 const WebDesing = () => {
   return (
-    <div className="WebDesing">
-      <h1 className="titlePage">Diseño Web</h1>
-      <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-  )
-}
+    <article className="WebDesing">
+      <section className="firstSection">
+        <div className="description">
+          <h1 className="titlePage">Diseño Web</h1>
+          <p>
+            Creación y deseño de páginas web's, blogs, aplicaciones móviles
+            (app), ecommerce, filtros, desarrollo de software corporativo
+            (programas exclusivos que permitan la sistematización de las
+            empresas, entre otros
+          </p>
+        </div>
+        <img src={IconMenu02} alt="" className="ImageDescription" />
+      </section>
+      <section className="imageSection reverse">
+        <div className="subDescription">
+          <h2 className="subtitle">Aplicaciones móviles</h2>
+          <p>
+            Permite a tu empresa monetizarse por el consumo de tus productos y
+            el uso de dicha aplicaión.
+          </p>
+        </div>
+        <img src={WebDesign01} alt="" />
+      </section>
+      <div className="separador" />
+      <section className="imageSection">
+        <div className="subDescription">
+          <h2 className="subtitle">Páginas Web</h2>
+          <p>
+            Te permítira estar a la vanguardia digital, te ayúdara a obtener
+            base de datos de clientes para poder hacer campañas publicitarias
+            más efectivas según el publico que esta buscando tus productos
+          </p>
+        </div>
+        <img src={WebDesign02} alt="" />
+      </section>
+      <div className="separador" />
+      <section className="imageSection reverse">
+        <div className="subDescription">
+          <h2 className="subtitle">E-commerce</h2>
+          <p>
+            Una tienda virtual que permite elevar las ventas, para aquellos
+            clientes que se encuentran en el mundo digital puedan realizar sus
+            compras sin salir de su casa y simplificandole la adquisición de
+            productos y/o servicos que desee ofrecer.
+          </p>
+        </div>
+        <img src={WebDesign03} alt="" />
+      </section>
+    </article>
+  );
+};
 
-export default WebDesing
+export default WebDesing;

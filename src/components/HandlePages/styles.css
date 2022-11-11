@@ -8,14 +8,16 @@
 .Pages{
     width: 85%;
     margin-top: 2.5%;
-    padding: 2.5%;
+    padding: 5%;
     background-color: #fff;
     min-height: 60vh;
-    border:#000 solid 1px;
     border-radius: 10px;
 }
 .titlePage{
-    margin: 2.5% 0;
+    margin: 1.25% 0;
+}
+.Pages p{
+    margin: 1.25% 0;
 }
 .SelectedPage{
     animation-name: SelectedAnimation;

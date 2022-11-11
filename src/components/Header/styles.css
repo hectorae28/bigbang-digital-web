@@ -2,6 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3fa3ef;
+    background-color: var(--purple-color);
     color: #fff;
+    padding: 1% 0;
+}
+.Header h1{
+    align-self: center;
+    font-size: 35px;
 }

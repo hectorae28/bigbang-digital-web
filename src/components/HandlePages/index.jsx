@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Home,
   WebDesing,
@@ -7,32 +7,38 @@ import {
   Prints,
   Photographs,
   GraphicDesign,
-  Uniforms
-} from '@pages'
-import './styles.css'
-const HandlePages = ({pageSelected}) => {
-  const pages=[
-    <Home/>,
-    <WebDesing/>,
-    <SocialMedia/>,
-    <Commercials/>,
-    <Prints/>,
-    <Photographs/>,
-    <GraphicDesign/>,
-    <Uniforms/>
-  ]
+  Uniforms,
+  SMS,
+} from '@pages';
+import './styles.css';
+const HandlePages = ({ pageSelected }) => {
+  const pages = [
+    <Home />,
+    <WebDesing />,
+    <SocialMedia />,
+    <Commercials />,
+    <Prints />,
+    <GraphicDesign />,
+    <Photographs />,
+    <Uniforms />,
+    <SMS />,
+  ];
   return (
     <div className="HandlePages">
-      {
-        pages.map((item,index)=>(
-          <div className={pageSelected==index?"Pages SelectedPage":"Pages NoSelectedPage"} key={index}>
-            {item}
-          </div>
-        ))
-      }
+      {pages.map((item, index) => (
+        <div
+          className={
+            pageSelected == index
+              ? 'Pages SelectedPage'
+              : 'Pages NoSelectedPage'
+          }
+          key={index}
+        >
+          {item}
+        </div>
+      ))}
     </div>
-    
-  )
-}
+  );
+};
 
-export default HandlePages
+export default HandlePages;

@@ -1,9 +1,9 @@
 .MenuItem{
-    border: 1px #00F433 solid;
+    border: 1px var(--green-color) solid;
     width: 9%;
     margin: 2.5% 0;
     list-style: none;
-    background-color: #00F433;
+    background-color: var(--green-color);
     border-radius: 5%;
     position: relative;
     display: flex;
@@ -14,8 +14,8 @@
     display: none;
     text-align: center;
     position:absolute;
-    top:-30px;
-    background-color: #757575;
+    background-color: var(--grey-color);
+    top: -18%;
     color: #fff;
     border-radius: 8px;
     width: 90%;
@@ -26,8 +26,8 @@
     display: none;
     text-align: center;
     position:absolute;
-    top:-50px;
-    background-color: #757575;
+    top:-18%;
+    background-color: var(--grey-color);
     color: #fff;
     border-radius: 8px;
     font-size: 17px;
@@ -35,16 +35,18 @@
     padding: 5%;
     z-index: -1;
 }
-.Selected span, .MenuItem:hover span{
+.Selected span,.MenuItem:hover span{
     display: block;
-    
+}
+.NoSelected:hover .tagSmall, .tagBig{
+    top: -20%;
 }
 .NoSelected:hover{
     width: 12.5%;
     margin: 1.25% 0;
 }
-.NoSelected svg{
-    width: 65%;
+.NoSelected .ImageContainer{
+    padding: 10% 0;
 }
 .Selected{
     width: 15%;
@@ -52,4 +54,11 @@
 }
 .Selected svg{
     width: 80%;
+}
+.ImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.ImageContainer img{
+    width: 70%;
 }

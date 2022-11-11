@@ -1,0 +1,49 @@
+.Prints{
+    display: flex;
+    flex-direction: column; 
+}
+.firstSection {
+    display: inherit;
+    margin: 4% 0;
+}
+.ImageDescription{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.decription{
+    width: 65%;
+    justify-content: space-evenly;
+    display: inherit;
+    flex-direction: column;
+}
+.Prints .secondSection{
+    position: relative;
+}
+.Prints .secondSection img{
+    width: 90%;
+    border-radius: 500px;
+    z-index: 2;
+}
+.Prints .secondSection::after{
+    content: '';
+    display: block;
+    background-color: var(--purple-color);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
+.Prints .secondSection::before{
+    content: '';
+    display: block;
+    background-color: var(--green-color);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}

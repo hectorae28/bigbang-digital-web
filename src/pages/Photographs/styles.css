@@ -1,0 +1,17 @@
+.Photographs{
+    display: flex;
+    flex-direction: column; 
+}
+.separador {
+    width: 99%;
+    border: 1px solid #f0f0f0;
+    margin: 5%;
+    align-self: center;
+    display: inherit;
+}
+.Photographs .subDescription p{
+    margin: 5% 0;
+}
+.Photographs .subDescription{
+    width: 35%;
+}

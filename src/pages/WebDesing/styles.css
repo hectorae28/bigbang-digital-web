@@ -1,0 +1,13 @@
+.WebDesing .description{
+    width: 50%;
+}
+.WebDesing{
+    display: flex;
+    flex-direction: column; 
+}
+.WebDesing .subDescription p{
+    margin: 5% 0;
+}
+.WebDesing .subDescription{
+    width: 35%;
+}

@@ -1,0 +1,61 @@
+.Home .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+}
+.Home .firtSecction{
+    display: flex;
+    margin: 4% 0;
+}
+.Home .secondSecction{
+    display: flex;
+    margin: 4% 0;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.Home{ 
+    display: flex;
+    flex-direction: column;
+}
+.Home .description p{
+    font-size: 30px;
+}
+.ImgDescription {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ImgSubdescription {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.Home .titlePage {
+    font-size: 50px;
+    align-self: flex-start;
+}
+.Home .subtitle{
+    margin: 1.25% 0;
+    font-size: 40px;
+    align-self: center; 
+    background-color: var(--blue-color);
+    box-shadow: var(--box-shadow);
+    padding: 1% 10%;
+    color: #ffff;
+    border-radius: 5px;  
+}
+.Home .subDescription {
+    width: 65%;
+    align-self: center;
+    display: inherit;
+    flex-direction: column;
+}
+.subDescription p{
+    font-size: 30px;
+    text-align: center;
+}
+
+  

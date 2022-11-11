@@ -1,0 +1,40 @@
+.GraphicDesign{
+    display: flex;
+    flex-direction: column; 
+}
+.firstSection {
+    display: inherit;
+    margin: 4% 0;
+}
+.ImageDescription{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.decription{
+    width: 65%;
+    justify-content: space-evenly;
+    display: inherit;
+    flex-direction: column;
+}
+.imageSection{
+    display: inherit;
+    justify-content: space-around;
+    align-items: center;
+}
+.imageSection :where(img){
+    width: 30%;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.subtitle{
+    font-size: 40px;
+    align-self: center;
+    background-color: var(--blue-color);
+    box-shadow: var(--box-shadow);
+    padding: 1% 2.5%;
+    color: #ffff;
+    border-radius: 5px;
+    text-align: center;
+}
