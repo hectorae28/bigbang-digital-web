@@ -32,11 +32,11 @@ const SMS = () => {
           <h2 className="subtitle">Donde se puede utilizar el SMS</h2>
           <ul>
             <li>Descargas de aplicaciones(Apps)</li>
-            <li>Comercio Electónico Marketing y Remarketing.</li>
+            <li>Comercio Electrónico Marketing y Remarketing.</li>
             <li>Venta de Productos y servicios.</li>
             <li>Comunicación de eventos(Espetaculos,Comercios,Ferias,...)</li>
             <li>Promociones On Off Line.</li>
-            <li>Adquisicion de nuevos clientes y prospectos.</li>
+            <li>Adquisición de nuevos clientes y prospectos.</li>
             <li>En la creación de sistemas de alertas.</li>
             <li>En desarrollo de aplicaciones de comercio móvil.</li>
           </ul>
