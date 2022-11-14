@@ -7,7 +7,6 @@
     margin: 4% 0;
 }
 .ImageDescription{
-    width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -33,8 +32,8 @@
     height: 150px;
     border-radius: 100px;
     position: absolute;
-    right: 100px;
-    bottom: 10px;
+    right: 0;
+    bottom: 0;
 }
 .Prints .secondSection::before{
     content: '';
@@ -44,6 +43,6 @@
     height: 150px;
     border-radius: 100px;
     position: absolute;
-    left: 100px;
-    top: 10px;
+    left: 0;
+    top: 0;
 }

@@ -36,7 +36,7 @@
 }
 .titles span {
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     background-color: var(--purple-color);
     box-shadow: var(--box-shadow);
     padding: 1% 5%;

@@ -19,9 +19,6 @@
     display: flex;
     flex-direction: column;
 }
-.Home .description p{
-    font-size: 30px;
-}
 .ImgDescription {
     width: 20%;
     margin-left: auto;
@@ -34,12 +31,10 @@
     margin-top: 5%;
 }
 .Home .titlePage {
-    font-size: 50px;
     align-self: flex-start;
 }
 .Home .subtitle{
     margin: 1.25% 0;
-    font-size: 40px;
     align-self: center; 
     background-color: var(--blue-color);
     box-shadow: var(--box-shadow);
@@ -54,7 +49,6 @@
     flex-direction: column;
 }
 .subDescription p{
-    font-size: 30px;
     text-align: center;
 }
 
