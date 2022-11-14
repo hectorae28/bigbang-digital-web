@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MenuList, Layout, HandlePages } from '@components';
 
 const App = () => {
-  const [pageSelected, setPageSelected] = useState(5);
+  const [pageSelected, setPageSelected] = useState(0);
   const handleClick = (index) => {
     setPageSelected(index);
   };
