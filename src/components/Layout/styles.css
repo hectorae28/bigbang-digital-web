@@ -9,6 +9,7 @@
     --green-color:#00F433;
     --grey-color:#757575;
     --box-shadow:10px 10px 5px lightblue;
+    --max-screen:700px;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -27,4 +28,99 @@ h1{
 }
 h2{
     font-size: 30px;
+}
+.Layout{
+    position: relative;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+    .MenuList {
+        min-height: 0;
+    }
+    
+    .Home .description {
+        width: 100%; 
+    }
+    
+    .Home .firtSecction {
+        flex-direction: column;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+    
+    .Home .secondSecction {
+        flex-direction: column;
+    }
+    
+    .Home .subDescription {
+        width: 100%;
+    }
+    
+    .firstSection {
+        flex-direction: column;
+    }
+    
+    .WebDesing .description {
+        width: 100%;
+    }
+    
+    .description {
+        width: 100%; 
+    }
+    
+    .reverse {
+        flex-direction: column;
+    }
+    
+    .WebDesing .subDescription {
+        width: 100%;
+    }
+    
+    .imageSection {
+        flex-direction: column;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    .firstSecction {
+        flex-direction: column;
+    }
+    
+    .Prints .secondSection::before {
+        display: none;
+    }
+    
+    .Prints .secondSection::after {
+        display: none;
+    }
+    
+    .ImgDescription {
+        width: 40%;
+    }
+    
+    .ImageDescription {
+        width: 40%;
+    }
+    
+    .Photographs .subDescription {
+        width: 100%;
+    }
+    
+    .SMS .textSection {
+        flex-direction: column;
+    }
+    
+    .SMS .Text {
+        width: 100%;
+    }
 }

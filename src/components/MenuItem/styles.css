@@ -62,3 +62,11 @@
 .ImageContainer img{
     width: 70%;
 }
+@media screen and (max-width:700px) {
+    .tagSmall,.tagBig{
+        display: none;
+    }
+    .Selected span,.MenuItem:hover span{
+        display: none;
+    }
+}

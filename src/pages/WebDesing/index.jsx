@@ -12,7 +12,7 @@ const WebDesing = () => {
         <div className="description">
           <h1 className="titlePage">Diseño Web</h1>
           <p>
-            Creación y deseño de páginas web's, blogs, aplicaciones móviles
+            Creación y diseño de páginas web's, blogs, aplicaciones móviles
             (app), ecommerce, filtros, desarrollo de software corporativo
             (programas exclusivos que permitan la sistematización de las
             empresas, entre otros

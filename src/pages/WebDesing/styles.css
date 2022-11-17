@@ -1,6 +1,3 @@
-.WebDesing .description{
-    width: 50%;
-}
 .WebDesing{
     display: flex;
     flex-direction: column; 
@@ -10,4 +7,27 @@
 }
 .WebDesing .subDescription{
     width: 35%;
+}
+
+@media screen and (max-width: 700px) {
+    .imageSection :where(img){
+        width: 70%;
+    }
+    
+    .reverse, .imageSection {
+        flex-direction: column;
+      }
+      
+      .WebDesing .subDescription {
+        width: 100%;
+      }
+    .subtitle {
+        width: 80%;
+        margin: 5% 0;
+    }
+    .WebDesing .subDescription {
+        width: 100%;
+        display: inherit;
+        flex-direction: column;
+      }
 }

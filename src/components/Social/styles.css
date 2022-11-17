@@ -18,5 +18,19 @@
 .Social svg{
  width: 75%;
 }
-
+@media screen and (max-width: 700px){
+  .Social {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green-color);
+    padding: 1%0;
+    right: 0;
+    border-radius: 0;
+  }
+}
 

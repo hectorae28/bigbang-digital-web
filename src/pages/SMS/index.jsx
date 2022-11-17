@@ -34,7 +34,7 @@ const SMS = () => {
             <li>Descargas de aplicaciones(Apps)</li>
             <li>Comercio Electrónico Marketing y Remarketing.</li>
             <li>Venta de Productos y servicios.</li>
-            <li>Comunicación de eventos(Espetaculos,Comercios,Ferias,...)</li>
+            <li>Comunicación de eventos (Espetaculos, Comercios, Ferias, ...)</li>
             <li>Promociones On Off Line.</li>
             <li>Adquisición de nuevos clientes y prospectos.</li>
             <li>En la creación de sistemas de alertas.</li>
@@ -49,13 +49,8 @@ const SMS = () => {
       <h2 className="title">Dejanos un mensaje</h2>
       <form action="">
         <input type="text" name="name" id="name" placeholder="Nombre" />
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="ejemplo@type.com"
-        />
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="email" name="email" id="email" placeholder="Ejemplo@type.com"/>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder='Mensaje'></textarea>
       </form>
     </article>
   );

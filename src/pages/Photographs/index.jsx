@@ -23,9 +23,7 @@ const Photographs = () => {
         <img src={IconMenu07} alt="" className="ImageDescription" />
       </section>
       <section className="secondSection">
-        <div className="titles">
-          <h2 className="subtitle ">Fotoproducto</h2>
-        </div>
+        <h2 className="subtitle ">Fotoproducto</h2>
         <div className="ImagesContainer">
           <img src={Photo01} alt="" />
           <img src={Photo02} alt="" />

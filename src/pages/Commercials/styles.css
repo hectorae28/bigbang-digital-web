@@ -39,3 +39,17 @@
     border-radius:50px 50px 0 0;
     color: #fff;
 }
+@media screen and (max-width:700px){
+    .imageCard {
+        width: 80%;
+        border-radius: 20px;
+    }
+    
+    .imageCard p {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .imageCard img {
+        border-radius: 0 0 20px 20px;
+    }
+}

@@ -6,8 +6,8 @@ const Layout = ({ children }) => {
   return (
     <div className="Layout">
       <Header />
-      <Social />
       <div className="container">{children}</div>
+      <Social />
     </div>
   );
 };

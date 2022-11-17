@@ -21,15 +21,19 @@ const SocialMedia = () => {
         <img className="ImgDescription" src={IconMenu03} alt="Logo" />
       </section>
       <section className="Imagesection">
-        <div className="titles">
-          <span>Diseño de feed</span>
-          <span>Campañas publicitarias</span>
+        <div className="parts">
+          <h2 className="titles">Diseño de feed</h2>
+          <div className="ImagesContainer">
+            <img src={SocialMedia01} alt="RedesSociales" />
+            <img src={SocialMedia02} alt="RedesSociales" />
+          </div>
         </div>
-        <div className="ImagesContainer">
-          <img src={SocialMedia01} alt="RedesSociales" />
-          <img src={SocialMedia02} alt="RedesSociales" />
-          <img src={SocialMedia03} alt="RedesSociales" />
-          <img src={SocialMedia04} alt="RedesSociales" />
+        <div className="parts">
+          <h2 className="titles">Campañas publicitarias</h2>
+          <div className="ImagesContainer">
+            <img src={SocialMedia03} alt="RedesSociales" />
+            <img src={SocialMedia04} alt="RedesSociales" />
+          </div>
         </div>
       </section>
     </article>

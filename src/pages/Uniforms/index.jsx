@@ -19,15 +19,23 @@ const Uniforms = () => {
         <img src={MenuIcon08} alt="" className="ImageDescription" />
       </section>
       <section className="Imagesection">
-        <div className="titles">
-          <span>Gorras</span>
-          <span>Tapabocas</span>
-          <span>Chemises</span>
+        <div className="parts">
+          <h2 className="titles">Gorras</h2>
+          <div className="ImagesContainer">
+            <img src={Uniform01} alt="" />
+          </div>
         </div>
-        <div className="ImagesContainer">
-          <img src={Uniform01} alt="" />
-          <img src={Uniform02} alt="" />
-          <img src={Uniform03} alt="" />
+        <div className="parts">
+          <h2 className="titles">Tapabocas</h2>
+          <div className="ImagesContainer">
+            <img src={Uniform02} alt="" />
+          </div>
+        </div>
+        <div className="parts">
+          <h2 className="titles">Chemises</h2>
+          <div className="ImagesContainer">
+            <img src={Uniform03} alt="" />
+          </div>
         </div>
       </section>
     </article>
