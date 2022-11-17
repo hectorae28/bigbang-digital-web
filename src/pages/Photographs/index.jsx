@@ -14,10 +14,9 @@ const Photographs = () => {
         <div className="description">
           <h1 className="titlePage">Fotografias y Audiovisuales</h1>
           <p>
-            Foto producto de Alimentos preparados, productos, prendas de
-            vestir,de larga duración, fotografía profesional para la imagen
-            personal, videos publicitarios con voces de locutores certificados,
-            videos publicitarios.
+            Foto producto de Alimentos preparados, productos, prendas de vestir,
+            fotografía profesional para la imagen personal, videos publicitarios
+            con voces de locutores certificados, videos publicitarios.
           </p>
         </div>
         <img src={IconMenu07} alt="" className="ImageDescription" />
@@ -25,9 +24,9 @@ const Photographs = () => {
       <section className="secondSection">
         <h2 className="subtitle ">Fotoproducto</h2>
         <div className="ImagesContainer">
-          <img src={Photo01} alt="" />
-          <img src={Photo02} alt="" />
-          <img src={Photo03} alt="" />
+          <img src={Photo01} alt="Photo01" />
+          <img src={Photo02} alt="Photo02" />
+          <img src={Photo03} alt="Photo03" />
         </div>
       </section>
       <div className="separador" />

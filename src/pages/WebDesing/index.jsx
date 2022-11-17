@@ -14,7 +14,7 @@ const WebDesing = () => {
           <p>
             Creación y diseño de páginas web's, blogs, aplicaciones móviles
             (app), ecommerce, filtros, desarrollo de software corporativo
-            (programas exclusivos que permitan la sistematización de las
+            programas exclusivos que permitan la sistematización de las
             empresas, entre otros
           </p>
         </div>
@@ -25,10 +25,10 @@ const WebDesing = () => {
           <h2 className="subtitle">Aplicaciones móviles</h2>
           <p>
             Permite a tu empresa monetizarse por el consumo de tus productos y
-            el uso de dicha aplicaión.
+            el uso de dicha aplicación.
           </p>
         </div>
-        <img src={WebDesign01} alt="" />
+        <img src={WebDesign01} alt="WebDesign" />
       </section>
       <div className="separador" />
       <section className="imageSection">
@@ -40,7 +40,7 @@ const WebDesing = () => {
             más efectivas según el publico que esta buscando tus productos
           </p>
         </div>
-        <img src={WebDesign02} alt="" />
+        <img src={WebDesign02} alt="WebDesign" />
       </section>
       <div className="separador" />
       <section className="imageSection reverse">
@@ -50,10 +50,10 @@ const WebDesing = () => {
             Una tienda virtual que permite elevar las ventas, para aquellos
             clientes que se encuentran en el mundo digital puedan realizar sus
             compras sin salir de su casa y simplificandole la adquisición de
-            productos y/o servicos que desee ofrecer.
+            productos y/o servicios que desee ofrecer.
           </p>
         </div>
-        <img src={WebDesign03} alt="" />
+        <img src={WebDesign03} alt="WebDesign" />
       </section>
     </article>
   );

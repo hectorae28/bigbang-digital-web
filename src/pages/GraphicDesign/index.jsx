@@ -14,7 +14,7 @@ const GraphicDesign = () => {
         <div className="description">
           <h1 className="titlePage">Diseño Grafico</h1>
           <p>
-            Diseño de Logotipos, post, flyers,identidad corporativas,
+            Diseño de Logotipos, post, flyers, identidad corporativas,
             vectorización de logotipos, diseño de vallas publicitarias y todo lo
             que amérite creaciones de artes tanto impresos como digitales.
           </p>
@@ -28,18 +28,18 @@ const GraphicDesign = () => {
       <div className="separador" />
       <section className="imageSection">
         <h2 className="subtitle">Identidad corporativa (Branding)</h2>
-        <img src={Branding01} alt="" />
-        <img src={Branding02} alt="" />
+        <img src={Branding01} alt="Branding01" />
+        <img src={Branding02} alt="Branding02" />
       </section>
       <div className="separador" />
       <section className="imageSection reverse">
         <h2 className="subtitle">Creación de Logotipo</h2>
-        <img src={Branding03} alt="" />
+        <img src={Branding03} alt="Branding03" />
       </section>
       <div className="separador" />
       <section className="imageSection">
         <h2 className="subtitle">Digitalización y vectorización de logos</h2>
-        <img src={Branding04} alt="" />
+        <img src={Branding04} alt="Branding04" />
       </section>
     </article>
   );

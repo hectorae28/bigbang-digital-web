@@ -14,7 +14,7 @@ const SocialMedia = () => {
           <h1 className="titlePage">Redes Sociales</h1>
           <p>
             Diseño del branding de la marca, desarrollo del buyer de persona,
-            estrategias para las campañas publicitarias campañas sms,robot de
+            estrategias para las campañas publicitarias, campañas sms,robot de
             whatsapp, community manager.
           </p>
         </div>

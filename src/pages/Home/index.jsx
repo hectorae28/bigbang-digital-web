@@ -28,7 +28,7 @@ const Home = () => {
             Posicionar nuestra empresa como una marca en el mundo publicitario a
             través de nuestros servicios, que sean de calidad excelencia, de
             igual manera, ofrecer soluciones avanzadas en el proceso de la
-            concepcion y ejecución de su empresa para maximizar las conversiones
+            concepción y ejecución de su empresa para maximizar las conversiones
             con las diferentes estrategías publicitarias.
           </p>
         </div>
