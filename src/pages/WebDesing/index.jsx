@@ -5,7 +5,7 @@ import WebDesign02 from '/public/images/WebDesign02.jpeg';
 import WebDesign03 from '/public/images/WebDesign03.png';
 import './styles.css';
 
-const WebDesing = () => {
+const WebDesing = ({handleClick}) => {
   return (
     <article className="WebDesing">
       <section className="firstSection">
@@ -35,9 +35,9 @@ const WebDesing = () => {
         <div className="subDescription">
           <h2 className="subtitle">Páginas Web</h2>
           <p>
-            Te permítira estar a la vanguardia digital, te ayúdara a obtener
+            Te permitirá estar a la vanguardia digital, te ayudará a obtener
             base de datos de clientes para poder hacer campañas publicitarias
-            más efectivas según el publico que esta buscando tus productos
+            más efectivas según el público que esta buscando tus productos
           </p>
         </div>
         <img src={WebDesign02} alt="WebDesign" />
@@ -49,12 +49,13 @@ const WebDesing = () => {
           <p>
             Una tienda virtual que permite elevar las ventas, para aquellos
             clientes que se encuentran en el mundo digital puedan realizar sus
-            compras sin salir de su casa y simplificandole la adquisición de
+            compras sin salir de su casa y simplificando la adquisición de
             productos y/o servicios que desee ofrecer.
           </p>
         </div>
         <img src={WebDesign03} alt="WebDesign" />
       </section>
+      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
     </article>
   );
 };

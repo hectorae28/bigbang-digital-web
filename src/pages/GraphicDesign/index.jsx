@@ -7,16 +7,16 @@ import Branding03 from '/public/images/Branding03.jpg';
 import Branding04 from '/public/images/Branding04.jpg';
 import './styles.css';
 
-const GraphicDesign = () => {
+const GraphicDesign = ({handleClick}) => {
   return (
     <article className="GraphicDesign">
       <section className="firstSection">
         <div className="description">
-          <h1 className="titlePage">Diseño Grafico</h1>
+          <h1 className="titlePage">Diseño Gráfico</h1>
           <p>
             Diseño de Logotipos, post, flyers, identidad corporativas,
             vectorización de logotipos, diseño de vallas publicitarias y todo lo
-            que amérite creaciones de artes tanto impresos como digitales.
+            que amerite creaciones de artes tanto impresas como digitales.
           </p>
         </div>
         <img src={MenuIcon06} alt="MenuIcon06" className="ImageDescription" />
@@ -41,6 +41,7 @@ const GraphicDesign = () => {
         <h2 className="subtitle">Digitalización y vectorización de logos</h2>
         <img src={Branding04} alt="Branding04" />
       </section>
+      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
     </article>
   );
 };

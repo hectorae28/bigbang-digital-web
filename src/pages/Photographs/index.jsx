@@ -7,12 +7,12 @@ import Photo04 from '/public/images/Photo04.png';
 import Photo05 from '/public/images/Photo05.png';
 import './styles.css';
 
-const Photographs = () => {
+const Photographs = ({handleClick}) => {
   return (
     <article className="Photographs">
       <section className="firstSection">
         <div className="description">
-          <h1 className="titlePage">Fotografias y Audiovisuales</h1>
+          <h1 className="titlePage">Fotografías y Audiovisuales</h1>
           <p>
             Foto producto de Alimentos preparados, productos, prendas de vestir,
             fotografía profesional para la imagen personal, videos publicitarios
@@ -48,6 +48,7 @@ const Photographs = () => {
         </div>
         <img src={Photo05} alt="" />
       </section>
+      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
     </article>
   );
 };

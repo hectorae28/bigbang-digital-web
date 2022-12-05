@@ -3,7 +3,7 @@ import IconMenu09 from '/public/images/Icons/IconMenu09.png';
 import SMS01 from '/public/images/SMS01.png';
 import './styles.css';
 
-const SMS = () => {
+const SMS = ({handleClick}) => {
   return (
     <article className="SMS">
       <section className="firstSection">
@@ -24,7 +24,7 @@ const SMS = () => {
             <li>Añade interactividad a un soporte físico y estático.</li>
             <li>Extiende la capacidad de comunicación con sus clientes</li>
             <li>
-              Falicita el control estadístico para mediciones de audiencia,
+              Facilita el control estadístico para mediciones de audiencia,
             </li>
           </ul>
         </div>
@@ -32,10 +32,10 @@ const SMS = () => {
           <h2 className="subtitle">Donde se puede utilizar el SMS</h2>
           <ul>
             <li>Descargas de aplicaciones(Apps)</li>
-            <li>Comercio Electrónico Marketing y Remarketing.</li>
+            <li>Comercio Electrónico, Marketing y Remarketing.</li>
             <li>Venta de Productos y servicios.</li>
             <li>
-              Comunicación de eventos (Espetaculos, Comercios, Ferias, ...)
+              Comunicación de eventos (Espetáculos, Comercios, Ferias, ...)
             </li>
             <li>Promociones On Off Line.</li>
             <li>Adquisición de nuevos clientes y prospectos.</li>
@@ -48,23 +48,7 @@ const SMS = () => {
       <section className="secondSection">
         <img src={SMS01} alt="" />
       </section>
-      <h2 className="title">Dejanos un mensaje</h2>
-      <form action="">
-        <input type="text" name="name" id="name" placeholder="Nombre" />
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Ejemplo@type.com"
-        />
-        <textarea
-          name="message"
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Mensaje"
-        ></textarea>
-      </form>
+      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
     </article>
   );
 };

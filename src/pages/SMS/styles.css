@@ -38,16 +38,6 @@
 .SMS .Text li{
     font-size: 20px;
 }
-.SMS form{
-    display: inherit;
-    flex-direction: column;
-    width: 70%;
-}
-.SMS form *{
-    margin: 1.5% 0;
-    min-height: 40px;
-    padding: 1%;
-}
 @media screen and (max-width: 700px){
     .SMS .Text {
       width: 100%;

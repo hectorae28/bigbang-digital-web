@@ -4,14 +4,14 @@ import Home01 from '/public/images/Home01.jpg';
 import IconMenu01 from '/public/images/Icons/IconMenu01.png';
 import './styles.css';
 
-const Home = () => {
+const Home = ({handleClick}) => {
   return (
     <article className="Home">
       <section className="firtSecction">
         <div className="description">
           <h1 className="titlePage">BigBang Digital</h1>
           <p>
-            Somos una empresa dedicada a el ramo publicitario, una agencia de
+            Somos una empresa dedicada a la rama publicitario, una agencia de
             publicidad en ascenso que cuenta con la capacidad de proyectar
             marcas hasta su mayor expresión. Con una trayectoria de 5 años en el
             mercado y seguimos apostando a más.
@@ -34,6 +34,7 @@ const Home = () => {
         </div>
         <img className="ImgSubdescription" src={Home01} alt="img" />
       </section>
+      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
     </article>
   );
 };

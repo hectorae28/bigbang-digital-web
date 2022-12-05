@@ -9,19 +9,21 @@ import {
   GraphicDesign,
   Uniforms,
   SMS,
+  Contacts,
 } from '@pages';
 import './styles.css';
-const HandlePages = ({ pageSelected }) => {
+const HandlePages = ({ pageSelected, handleClick }) => {
   const pages = [
-    <Home />,
-    <WebDesing />,
-    <SocialMedia />,
-    <Commercials />,
-    <Prints />,
-    <GraphicDesign />,
-    <Photographs />,
-    <Uniforms />,
-    <SMS />,
+    <Home handleClick={handleClick}/>,
+    <WebDesing handleClick={handleClick}/>,
+    <SocialMedia handleClick={handleClick}/>,
+    <Commercials handleClick={handleClick}/>,
+    <Prints handleClick={handleClick}/>,
+    <GraphicDesign handleClick={handleClick}/>,
+    <Photographs handleClick={handleClick}/>,
+    <Uniforms handleClick={handleClick}/>,
+    <SMS handleClick={handleClick}/>,
+    <Contacts handleClick={handleClick} />
   ];
   return (
     <div className="HandlePages">

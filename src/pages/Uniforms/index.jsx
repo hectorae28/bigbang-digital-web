@@ -5,7 +5,7 @@ import Uniform02 from '/public/images/Uniform02.jpg';
 import Uniform03 from '/public/images/Uniform03.jpg';
 import './styles.css';
 
-const Uniforms = () => {
+const Uniforms = ({handleClick}) => {
   return (
     <article className="Uniforms">
       <section className="firstSection">
@@ -38,6 +38,7 @@ const Uniforms = () => {
           </div>
         </div>
       </section>
+      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
     </article>
   );
 };

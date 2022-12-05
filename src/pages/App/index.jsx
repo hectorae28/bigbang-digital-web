@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <Layout>
         <MenuList handleClick={handleClick} pageSelected={pageSelected} />
-        <HandlePages pageSelected={pageSelected} />
+        <HandlePages pageSelected={pageSelected} handleClick={handleClick}/>
       </Layout>
     </div>
   );

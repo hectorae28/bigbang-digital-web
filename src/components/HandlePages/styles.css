@@ -21,11 +21,11 @@
 }
 .SelectedPage{
     animation-name: SelectedAnimation;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
 }
 @keyframes SelectedAnimation {
     0%{
-        margin-top: 100%;
+        margin-top: 100vh;
     }
     100%{
         margin-top: 2.5%;

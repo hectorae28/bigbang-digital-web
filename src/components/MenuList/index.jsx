@@ -1,16 +1,6 @@
 import React, { useState } from 'react';
 import { MenuItem } from '@components';
 import './styles.css';
-import {
-  WebIcon,
-  SocialMediaIcon,
-  ADIcon,
-  PrintIcon,
-  GraphicDesignIcon,
-  CameraIcon,
-  ShirtIcon,
-} from '../../../public/images/Icons';
-//"../../../public/images/IconMenu01.png"
 import IconMenu01 from '/public/images/Icons/IconMenu01.png';
 import IconMenu02 from '/public/images/Icons/IconMenu02.png';
 import IconMenu03 from '/public/images/Icons/IconMenu03.png';
@@ -20,7 +10,6 @@ import IconMenu06 from '/public/images/Icons/IconMenu06.png';
 import IconMenu07 from '/public/images/Icons/IconMenu07.png';
 import IconMenu08 from '/public/images/Icons/IconMenu08.png';
 import IconMenu09 from '/public/images/Icons/IconMenu09.png';
-import LogoSmall from '../../../public/images/Icons/Logo_small';
 
 const data = [
   {
