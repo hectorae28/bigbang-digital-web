@@ -3,7 +3,7 @@ import IconMenu05 from '/public/images/Icons/IconMenu05.png';
 import Prints01 from '/public/images/Prints01.png';
 import './styles.css';
 
-const Prints = ({handleClick}) => {
+const Prints = ({ handleClick }) => {
   return (
     <article className="Prints">
       <section className="firstSection">
@@ -24,7 +24,9 @@ const Prints = ({handleClick}) => {
       <section className="secondSection">
         <img src={Prints01} alt="Prinst" />
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };

@@ -4,7 +4,7 @@ import Home01 from '/public/images/Home01.jpg';
 import IconMenu01 from '/public/images/Icons/IconMenu01.png';
 import './styles.css';
 
-const Home = ({handleClick}) => {
+const Home = ({ handleClick }) => {
   return (
     <article className="Home">
       <section className="firtSecction">
@@ -34,7 +34,9 @@ const Home = ({handleClick}) => {
         </div>
         <img className="ImgSubdescription" src={Home01} alt="img" />
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };

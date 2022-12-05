@@ -3,7 +3,7 @@ import IconMenu09 from '/public/images/Icons/IconMenu09.png';
 import SMS01 from '/public/images/SMS01.png';
 import './styles.css';
 
-const SMS = ({handleClick}) => {
+const SMS = ({ handleClick }) => {
   return (
     <article className="SMS">
       <section className="firstSection">
@@ -48,7 +48,9 @@ const SMS = ({handleClick}) => {
       <section className="secondSection">
         <img src={SMS01} alt="" />
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };

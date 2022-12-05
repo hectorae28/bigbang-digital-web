@@ -6,7 +6,7 @@ import SocialMedia04 from '/public/images/SocialMedia04.jpg';
 import IconMenu03 from '/public/images/Icons/IconMenu03.png';
 import './styles.css';
 
-const SocialMedia = ({handleClick}) => {
+const SocialMedia = ({ handleClick }) => {
   return (
     <article className="SocialMedia">
       <section className="firstSecction">
@@ -36,7 +36,9 @@ const SocialMedia = ({handleClick}) => {
           </div>
         </div>
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };

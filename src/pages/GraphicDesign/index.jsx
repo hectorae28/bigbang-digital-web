@@ -7,7 +7,7 @@ import Branding03 from '/public/images/Branding03.jpg';
 import Branding04 from '/public/images/Branding04.jpg';
 import './styles.css';
 
-const GraphicDesign = ({handleClick}) => {
+const GraphicDesign = ({ handleClick }) => {
   return (
     <article className="GraphicDesign">
       <section className="firstSection">
@@ -41,7 +41,9 @@ const GraphicDesign = ({handleClick}) => {
         <h2 className="subtitle">Digitalización y vectorización de logos</h2>
         <img src={Branding04} alt="Branding04" />
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };

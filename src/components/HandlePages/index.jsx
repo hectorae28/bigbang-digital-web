@@ -14,16 +14,16 @@ import {
 import './styles.css';
 const HandlePages = ({ pageSelected, handleClick }) => {
   const pages = [
-    <Home handleClick={handleClick}/>,
-    <WebDesing handleClick={handleClick}/>,
-    <SocialMedia handleClick={handleClick}/>,
-    <Commercials handleClick={handleClick}/>,
-    <Prints handleClick={handleClick}/>,
-    <GraphicDesign handleClick={handleClick}/>,
-    <Photographs handleClick={handleClick}/>,
-    <Uniforms handleClick={handleClick}/>,
-    <SMS handleClick={handleClick}/>,
-    <Contacts handleClick={handleClick} />
+    <Home handleClick={handleClick} />,
+    <WebDesing handleClick={handleClick} />,
+    <SocialMedia handleClick={handleClick} />,
+    <Commercials handleClick={handleClick} />,
+    <Prints handleClick={handleClick} />,
+    <GraphicDesign handleClick={handleClick} />,
+    <Photographs handleClick={handleClick} />,
+    <Uniforms handleClick={handleClick} />,
+    <SMS handleClick={handleClick} />,
+    <Contacts handleClick={handleClick} />,
   ];
   return (
     <div className="HandlePages">

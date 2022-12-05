@@ -5,7 +5,7 @@ import WebDesign02 from '/public/images/WebDesign02.jpeg';
 import WebDesign03 from '/public/images/WebDesign03.png';
 import './styles.css';
 
-const WebDesing = ({handleClick}) => {
+const WebDesing = ({ handleClick }) => {
   return (
     <article className="WebDesing">
       <section className="firstSection">
@@ -55,7 +55,9 @@ const WebDesing = ({handleClick}) => {
         </div>
         <img src={WebDesign03} alt="WebDesign" />
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };

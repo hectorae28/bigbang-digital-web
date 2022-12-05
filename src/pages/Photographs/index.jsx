@@ -7,7 +7,7 @@ import Photo04 from '/public/images/Photo04.png';
 import Photo05 from '/public/images/Photo05.png';
 import './styles.css';
 
-const Photographs = ({handleClick}) => {
+const Photographs = ({ handleClick }) => {
   return (
     <article className="Photographs">
       <section className="firstSection">
@@ -48,7 +48,9 @@ const Photographs = ({handleClick}) => {
         </div>
         <img src={Photo05} alt="" />
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };

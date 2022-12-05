@@ -12,7 +12,7 @@ import Commercials09 from '/public/images/Commercials09.png';
 
 import './styles.css';
 
-const Commercials = ({handleClick}) => {
+const Commercials = ({ handleClick }) => {
   const imagesIndex = [
     {
       image: Commercials01,
@@ -53,8 +53,8 @@ const Commercials = ({handleClick}) => {
         <div className="description">
           <h1 className="titlePage">Anuncios Publicitarios</h1>
           <p>
-            Publicidad de exteriores, impresiones de vinil, banner acrílico
-            en 3D Corporeos publicitarios, vallas publicitarias y marquesinas,
+            Publicidad de exteriores, impresiones de vinil, banner acrílico en
+            3D Corporeos publicitarios, vallas publicitarias y marquesinas,
             pendones, inflables, banderines, pancartas, inflables publicitarios.
           </p>
         </div>
@@ -68,7 +68,9 @@ const Commercials = ({handleClick}) => {
           </div>
         ))}
       </section>
-      <button onClick={()=>handleClick(9)} className="ContactButton">Contactanos</button>
+      <button onClick={() => handleClick(9)} className="ContactButton">
+        Contactanos
+      </button>
     </article>
   );
 };
