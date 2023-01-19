@@ -14,13 +14,13 @@ const SocialMedia = ({ handleClick }) => {
           <h1 className="titlePage">Redes Sociales</h1>
           <p>
             Diseño del branding de la marca, desarrollo del buyer de persona,
-            estrategias para las campañas publicitarias, campañas sms,robot de
+            estrategias para las campañas publicitarias, campañas sms, robot de
             whatsapp, community manager.
           </p>
         </div>
         <img className="ImgDescription" src={IconMenu03} alt="Logo" />
       </section>
-      <section className="Imagesection">
+      {/* <section className="Imagesection">
         <div className="parts">
           <h2 className="titles">Diseño de feed</h2>
           <div className="ImagesContainer">
@@ -35,7 +35,7 @@ const SocialMedia = ({ handleClick }) => {
             <img src={SocialMedia04} alt="RedesSociales" />
           </div>
         </div>
-      </section>
+      </section> */}
       <button onClick={() => handleClick(9)} className="ContactButton">
         Contactanos
       </button>

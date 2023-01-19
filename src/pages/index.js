@@ -9,3 +9,4 @@ export { default as GraphicDesign } from './GraphicDesign';
 export { default as Uniforms } from './Uniforms';
 export { default as SMS } from './SMS';
 export { default as Contacts } from './Contacts';
+export { default as ApiSms } from './ApiSms';

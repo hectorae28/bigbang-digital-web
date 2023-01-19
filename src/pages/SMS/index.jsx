@@ -51,6 +51,9 @@ const SMS = ({ handleClick }) => {
       <button onClick={() => handleClick(9)} className="ContactButton">
         Contactanos
       </button>
+      <button onClick={() => handleClick(10)} className="ContactButton">
+        Api
+      </button>
     </article>
   );
 };

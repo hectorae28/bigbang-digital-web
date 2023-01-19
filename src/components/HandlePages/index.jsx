@@ -10,6 +10,7 @@ import {
   Uniforms,
   SMS,
   Contacts,
+  ApiSms
 } from '@pages';
 import './styles.css';
 const HandlePages = ({ pageSelected, handleClick }) => {
@@ -24,6 +25,7 @@ const HandlePages = ({ pageSelected, handleClick }) => {
     <Uniforms handleClick={handleClick} />,
     <SMS handleClick={handleClick} />,
     <Contacts handleClick={handleClick} />,
+    <ApiSms handleClick={handleClick} />,
   ];
   return (
     <div className="HandlePages">
