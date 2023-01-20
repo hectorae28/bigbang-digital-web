@@ -26,7 +26,7 @@ const ApiSms = () => {
       body: raw,
     };
 
-    fetch('http://throbbing-morning-3272.fly.dev', options)
+    fetch('https://throbbing-morning-3272.fly.dev', options)
       .then((response) => response.json())
       .then((response) => {
         setLoading(false);
