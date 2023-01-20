@@ -3,7 +3,7 @@ import { getFirestore, collection, addDoc } from "firebase/firestore";
 import app from '../../firebase';
 import './styles.css';
 
-const Contact = () => {
+const Contact = ({handleClick}) => {
   const formContact = useRef(null)
   const [errorMessage, setErrorMessage] = useState('')
   //sorry for my ugly code
@@ -19,7 +19,7 @@ const Contact = () => {
       'message': formContactData.get('message'),
     }
     try {
-      await addDoc(collection(db, "messages"), raw);
+      await addDoc(collection(db, "messages"), raw).then(()=>handleClick(0));
     } catch (e) {
       setErrorMessage(`Hubo un error al enviar su mensaje :${e}`);
     }
