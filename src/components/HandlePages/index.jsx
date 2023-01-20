@@ -10,7 +10,7 @@ import {
   Uniforms,
   SMS,
   Contacts,
-  ApiSms
+  ApiSms,
 } from '@pages';
 import './styles.css';
 const HandlePages = ({ pageSelected, handleClick }) => {
